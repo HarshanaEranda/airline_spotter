@@ -8,6 +8,8 @@ obj/
 *.userosscache
 *.sln.docstates
 *.cache
+*.pdb
+*.dll
 
 # Visual Studio cache/options directory
 .vs/
