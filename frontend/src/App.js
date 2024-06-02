@@ -112,11 +112,11 @@ const App = () => {
     <div className="app">
      <header>
         <h1>Airline Sightings</h1>
-        <button onClick={openModal}>Add Airline</button>
       </header>
       <main>
         <div className="search-container">
           <SearchBar onSearch={handleSearch} />
+          <button onClick={openModal}>Add Airline</button>
         </div>
         <div className="list-container">
           <AirlineList
